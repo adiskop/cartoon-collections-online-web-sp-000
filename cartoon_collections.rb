@@ -5,7 +5,7 @@ end
 
 
 def summon_captain_planet(planeteers)
-  planeteers.collect {|planteer|planteer.capitalize+"!"
+  planeteers.collect {|planteer|planteer.capitalize + "!"
   puts "#{planteer}"}
   return planeteers
 end
