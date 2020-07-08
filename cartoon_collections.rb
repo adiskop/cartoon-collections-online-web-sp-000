@@ -5,9 +5,7 @@ end
 
 
 def summon_captain_planet(planeteers)
-  planeteers.map {|planteer|planteer.capitalize
-  puts "[#{planteer}!]"}
-  return planeteers
+  planeteers.map {|planteer|planteer.capitalize + "!"
 end
 
 def long_planeteer_calls# code an argument here
